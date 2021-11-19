@@ -1,0 +1,37 @@
+$mainColor : skyblue;
+
+@mixin button($w: 100px, $color: red) {
+    width: $w;
+    height: 100px;
+    background: $color;
+}
+
+body {
+    background: tan;
+}
+
+div {
+    ul {
+        li {
+            background: $mainColor;
+        }
+    }
+    .red {
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+    .blue {
+        @include button(500px, blue)
+    }
+}
+
+.main {
+    background: #fff;
+    &__list {
+        background: chartreuse;
+        &__content {
+            color: $mainColor;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+body {
+  background: tan;
+}
+
+div ul li {
+  background: skyblue;
+}
+div .red {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+div .blue {
+  width: 500px;
+  height: 100px;
+  background: blue;
+}
+
+.main {
+  background: #fff;
+}
+.main__list {
+  background: chartreuse;
+}
+.main__list__content {
+  color: skyblue;
+}
