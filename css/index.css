@@ -1,27 +1,100 @@
-body {
-  background: tan;
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
-div ul li {
-  background: skyblue;
+.logoWrap {
+  width: 100%;
+  height: 13vh;
+  border: black solid 1px;
 }
-div .red {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
-div .blue {
-  width: 500px;
-  height: 100px;
-  background: blue;
+.logoWrap__logo {
+  width: 135px;
+  height: 64px;
+  margin-top: 32px;
+  margin-left: 32px;
+  border: black solid 1px;
 }
 
-.main {
-  background: #fff;
+.mainVisuWrap {
+  width: 100%;
+  height: 87vh;
+  border: black solid 1px;
 }
-.main__list {
-  background: chartreuse;
+.mainVisuWrap__element {
+  width: 1080px;
+  height: 554px;
+  border: black solid 1px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
 }
-.main__list__content {
-  color: skyblue;
+.mainVisuWrap__element__inLeft {
+  width: 424px;
+  height: 380px;
+  border: black solid 1px;
+}
+.mainVisuWrap__element__inRight {
+  width: 664px;
+  height: 554px;
+  border: black solid 1px;
+}
+
+.appOverviewWrap {
+  width: 100%;
+  height: 400px;
+  border: black solid 1px;
+}
+.appOverviewWrap__description {
+  width: 70%;
+  height: 65%;
+  border: black solid 1px;
+  margin: 0 auto;
+}
+
+.FeatureWrap {
+  width: 100%;
+  height: 1440px;
+  background-color: skyblue;
+  position: relative;
+}
+.FeatureWrap__appFeature {
+  width: 70%;
+  height: 85%;
+  background-color: tomato;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.FeatureWrap__appFeature p {
+  font-size: 32px;
+  text-align: center;
+}
+.FeatureWrap__appFeature__element {
+  width: 100%;
+  height: 31%;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.appIllustrationWrap {
+  width: 100%;
+  height: 750px;
+  border: solid 1px black;
+  position: relative;
+}
+.appIllustrationWrap__illustration {
+  width: 1000px;
+  height: 500px;
+  border: solid 1px black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
