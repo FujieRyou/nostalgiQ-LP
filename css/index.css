@@ -47,7 +47,7 @@ html, body {
   width: 98%;
   display: flex;
   margin: 0 auto;
-  transform: translateY(40px);
+  transform: translateY(40px) translateX(-10px);
 }
 .main-visu-wrap__catchcopy img {
   height: 100%;
