@@ -66,8 +66,9 @@ html,body{
         height: 12%;
         width: 98%;
         display: flex;
+        justify-content: center;
         margin: 0 auto;
-        transform: translateY(40px) translateX(-10px);
+        transform: translateY(40px);
         img{
             height: 100%;
             width: auto;
@@ -75,7 +76,7 @@ html,body{
         }
     }
     &__catchcopy:first-child{
-        margin-left: 0px;
+        margin-left: 5px;
     }
     &__chara-ttl{
         width: 95%;
