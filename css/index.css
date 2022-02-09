@@ -13,6 +13,10 @@ html, body {
   font-style: normal;
 }
 
+body {
+  font-size: 62.5%;
+}
+
 .top-btn {
   width: 60px;
   height: 60px;
@@ -113,7 +117,7 @@ html, body {
 
 .feature1-wrap {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   background-color: #ffd43b;
   position: relative;
   font-family: "Mochiy Pop P One", sans-serif;
@@ -121,34 +125,45 @@ html, body {
   color: #8c4300;
 }
 .feature1-wrap__fukidasi {
-  width: 70%;
-  height: 500px;
+  width: 1000px;
+  height: 470px;
   margin: 0 auto;
   transform: translateY(-390px);
+  display: flex;
+  flex-direction: column;
 }
 .feature1-wrap__fukidasi img {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .feature1-wrap__fukidasi__first-line {
   text-align: center;
   font-size: 32px;
   letter-spacing: 8px;
-  transform: translateY(-370px);
   color: #000333;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin: auto;
 }
 .feature1-wrap__fukidasi__second-line {
   font-size: 48px;
   text-align: center;
   letter-spacing: 15px;
-  transform: translateY(-360px);
   color: #000333;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 180px;
+  margin: auto;
 }
 .feature1-wrap__fukidasi__second-line span {
   color: #ff58a8;
 }
 .feature1-wrap__content {
-  width: 65%;
+  width: 70%;
   height: 500px;
   position: absolute;
   top: 0;
@@ -157,11 +172,13 @@ html, body {
   bottom: 0;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 .feature1-wrap__content__left {
   width: 485px;
   height: 100%;
+  margin-right: 10%;
 }
 .feature1-wrap__content__left__1 {
   font-size: 30px;
@@ -211,7 +228,7 @@ html, body {
 
 .feature2-wrap {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   background-color: #a974ff;
   position: relative;
   color: #512599;
@@ -226,11 +243,12 @@ html, body {
   bottom: 0;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .feature2-wrap__content__left {
   width: 375px;
   height: 100%;
+  margin-right: 15%;
 }
 .feature2-wrap__content__right {
   width: 485px;
@@ -274,7 +292,7 @@ html, body {
 
 .feature3-wrap {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   background-color: #ff58a8;
   position: relative;
   color: #980049;
@@ -289,11 +307,12 @@ html, body {
   bottom: 0;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .feature3-wrap__content__left {
   width: 485px;
   height: 100%;
+  margin-right: 10%;
 }
 .feature3-wrap__content__left__3 {
   font-size: 30px;

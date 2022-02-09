@@ -34,6 +34,10 @@ html,body{
     font-style: normal;
 }
 
+body{
+    font-size: 62.5%;
+}
+
 
 .top-btn{
     width: 60px;
@@ -136,42 +140,52 @@ html,body{
 // 特徴1
 .feature1-wrap{
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background-color: $feature1-background;
     position: relative;
     font-family: $font;
     font-weight: bold;
     color: $feature1-font-color;
-
     &__fukidasi{
-        width: 70%;
-        height: 500px;
+        width: 1000px;
+        height: 470px;
         margin: 0 auto;
         transform: translateY(-390px);
+        display: flex;
+        flex-direction: column;
         img{
             width: 100%;
             height: auto;
+            position: relative;
         }
         &__first-line{
             text-align: center;
             font-size: 32px;
             letter-spacing: 8px;
-            transform: translateY(-370px);
             color: $font-color;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 120px;
+            margin: auto;
         }
         &__second-line{
             font-size: 48px;
             text-align: center;
             letter-spacing: 15px;
-            transform: translateY(-360px);
             color: $font-color;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 180px;
+            margin: auto;
             span{
                 color: $fukidasi-font;
             }
         }
     }
         &__content{
-        width: 65%;
+        width: 70%;
         height: 500px;
         position: absolute;
         top: 0;
@@ -180,10 +194,12 @@ html,body{
         bottom: 0;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: nowrap;
         &__left{
             width: 485px;
             height: 100%;
+            margin-right: 10%;
             &__1{
                 font-size: 30px;
                 margin-bottom: 16px;
@@ -236,7 +252,7 @@ html,body{
 // 特徴2
 .feature2-wrap{
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background-color: $feature2-background;
     position: relative;
     color: $feature2-font-color;
@@ -250,10 +266,11 @@ html,body{
         bottom: 0;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         &__left{
             width: 375px;
             height: 100%;
+            margin-right: 15%;
         }
         &__right{
             width: 485px;
@@ -300,7 +317,7 @@ html,body{
 // 特徴3
 .feature3-wrap{
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background-color: $feature3-background;
     position: relative;
     color: $feature3-font-color;
@@ -314,10 +331,11 @@ html,body{
         bottom: 0;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         &__left{
             width: 485px;
             height: 100%;
+            margin-right: 10%;
             &__3{
                 font-size: 30px;
                 margin-bottom: 16px;
